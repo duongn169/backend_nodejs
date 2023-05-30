@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon ./src/server.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,12 @@
   },
   "homepage": "https://github.com/duongn169/backend_nodejs#readme",
   "dependencies": {
-    "express": "4.18.2"
+    "dotenv": "16.0.3",
+    "ejs": "3.1.8",
+    "express": "4.18.2",
+    "mysql2": "2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
